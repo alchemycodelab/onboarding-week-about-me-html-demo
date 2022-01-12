@@ -15,11 +15,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--primary-background);
     color: var(--text-color);
-
-    /* layout */
-    /* display: grid;
-    grid-template-rows: 80px 1fr auto;
-    justify-content: center; */
 }
 
 header {
@@ -30,17 +25,7 @@ header {
     padding: 0 var(--gutter);
 }
 
-main {
-    overflow-y: auto;
-    width: 350px;
-    padding: 15px;
-    border: brown solid 1px;
-    border-radius: 5px;
-    background-color: rgb(94, 231, 213);
-}
-
 footer {
     background-color: var(--chrome-background-opaque);
-    padding: 10px var(--gutter);
     align-self: stretch;
 }
